@@ -1,0 +1,423 @@
+<!doctype html>
+<html class="no-js" lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arcade Haven</title>
+    <link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="css/app.css">
+    <link href="https://fonts.googleapis.com/css?family=Fira+Code:300,400,500,600,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Fira+Sans:200,300,300i,400,500,600,700,800,900&display=swap" rel="stylesheet">
+    <link href="css/fontawesome/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/foundation-datepicker.min.css"/>
+    <script src="https://use.fontawesome.com/4b30406dcb.js"></script>
+  </head>
+  <body>
+    <header>
+  <div class="grid-container">
+    <div class="grid-x">
+      
+      <div class="cell medium-2 show-for-medium" data-magellan>
+        <a href="#four"class="button">ROOMS</a>
+      </div>
+      <div class="cell medium-2 show-for-medium" data-magellan>
+        <a href="#one"class="button">ARCADE</a>
+      </div>
+      <div class="cell small-6 medium-4">
+        <a class="logo" href="#"><img src="img/ahlogo.svg" alt="logo"></a>
+      </div>
+      <div class="cell medium-2 show-for-medium text-right" data-magellan>
+        <a href="#three"class="button">BAR</a>
+      </div>
+      <div class="cell medium-2 show-for-medium text-right" data-magellan>
+        <a href="#two"class="button">STORY</a>
+      </div>
+      <div class="cell small-6 show-for-small-only">
+        <a class="menu-link" href="#" data-open="exampleModal1"><i class="fas fa-bars"></i></a>
+      </div>
+    </div>
+  </div>
+</header>
+
+<div class="reveal" id="exampleModal1" data-reveal>
+  <div class="grid-x align-middle">
+    <div class="cell">
+      <ul class="vertical menu align-center" data-magellan>
+        <li><a href="#four">ROOMS</a></li>
+        <li><a href="#two">ARCADE</a></li>
+        <li><a href="#three">BAR</a></li>
+        <li><a href="#two">STORY</a></li>
+      </ul>
+    </div>
+  </div>
+  <button class="close-button" data-close aria-label="Close modal" type="button">
+    <span aria-hidden="true">&times;</span>
+  </button>
+</div>
+   
+   <!-- <header>
+      <div class="grid-x">
+        <div class="cell text-center">
+          <a href="#" class="logo"><img src="img/ahlogo.svg" alt="logo">
+          </a>
+        </div>
+      </div>
+
+        <div class="grid-x">
+        <div class="cell show-for-medium">
+
+        <ul class="menu expanded align-center">
+          <li><a href="#" class="hollow button alert">ROOMS</a></li>
+          <li><a href="#" class="hollow button alert">THE BAR</a></li>
+          <li><a href="#" class="hollow button alert">THE ARCADE</a></li>
+          <li><a href="#" class="dropdown hollow button alert" type="button" data-toggle="example-dropdown-1">
+          <div class="dropdown-pane" id="example-dropdown-1" data-dropdown data-hover="true" data-hover-pane="true">
+          OUR STORY
+          </div>CONTACT US</a></li>
+        </ul>
+
+      </div>
+      <div class="cell text-center show-for-small-only">
+        <a class="menu-link" href="#" data-open="exampleModal1">MENU</a>
+      </div>
+    </div>
+
+  </header> 
+
+  
+
+  <div class="reveal" id="exampleModal1" data-reveal>
+  <div class="grid-x align-middle">
+    <div class="cell">
+      <ul class="vertical menu align-center">
+        <li><a href="#" class="hollow button alert" >ROOMS</a></li>
+        <li><a href="#" class="hollow button alert" >THE BAR</a></li>
+        <li><a href="#" class="hollow button alert" >THE ARCADE</a></li>
+        <li><a href="#" class="hollow button alert" >CONTACT US</a></li>
+        <li><a href="#" class="hollow button alert" >OUR STORY</a></li>
+      </ul>
+    </div>
+  </div>
+  <button class="close-button" data-close aria-label="Close modal" type="button">
+    <span aria-hidden="true">&times;</span>
+  </button>
+</div> -->
+
+  <section class="hero" data-magellan>
+    <div class="grid-container">
+      <div class="grid-x align-middle">
+        <div class="cell medium-12">
+          <div class="orbit" role="region" aria-label="Favorite Space Pictures" data-orbit>
+  <div class="orbit-wrapper">
+    <div class="orbit-controls">
+      <button class="orbit-previous"><span class="show-for-sr">Previous Slide</span>&#9664;&#xFE0E;</button>
+      <button class="orbit-next"><span class="show-for-sr">Next Slide</span>&#9654;&#xFE0E;</button>
+    </div>
+    <ul class="orbit-container">
+      <li class="is-active orbit-slide">
+        <figure class="orbit-figure">
+          <img data-interchange="[img/arcade1.jpg, small], [img/arcade1.jpg, medium]">
+          <figcaption class="orbit-caption">
+            <div> <h3> After 9pm, <br> quarters arent needed.</h3> <a href="#one"class="button alert">Free Games</a> </div> </figcaption>
+
+        </figure>
+      </li>
+      <li class="orbit-slide">
+        <figure class="orbit-figure">
+          <img class="orbit-image" src="img/arcade2.jpg">
+          <figcaption class="orbit-caption"> <div> <h3> Pizza or Beer? <br> We have them both.</h3><a href="#three"class="button alert">Food and Drink</a> </div></figcaption>
+        </figure>
+      </li>
+      <li class="orbit-slide">
+        <figure class="orbit-figure">
+          <img class="orbit-image" src="img/arcade3.jpg">
+          <figcaption class="orbit-caption"> <div> <h3> Pinball Suite, <br> Now starting at $79.</h3><a href="#five"class="button alert">Reserve Now</a> </div> </figcaption>
+        </figure>
+      </li>
+    </ul>
+  </div>
+</div>
+</section>
+
+
+         
+
+   <section class="features" id="one" data-magellan-target>
+    <div class="grid-container">
+      <div class="grid-x grid-margin-x text-center">
+        <div class="cell medium-4" data-magellan>
+          <h2> The Rooms </h2>
+          <img src="img/arcadebed.jpg">
+          <a href="#five"> <h4> Book Now </h4> </a>
+          <p> Every room has a comfy bed,
+          A couple chairs, and a lot of 
+          Arcade cabinets. Don’t forget
+          To check out the classics. </p>
+        </div>
+        <div class="cell medium-4">
+          <h2> The Garage </h2>
+          <img src="img/garagearcade.jpg">
+          <a href="#"> <h4> Park Now </h4> </a>
+          <p> No worries about parking. We
+          Know how crazy Boston can get.
+          For that very reason we have our
+          own garage just for you. </p>
+        </div>
+        <div class="cell medium-4">
+          <h2> The Arcade </h2>
+          <img src="img/arcadeone.jpeg">
+          <a href="#"> <h4> Play Now </h4> </a>
+          <p> Our Arcade has just about
+          any game you could think of.
+          Don’t waste your brain power, 
+          Come see for yourself.</p>
+        </div>
+      </div>
+    </div>
+   </section>
+                              <!-- BANNER -->
+   <section class="bar" id="two" data-magellan-target>
+    <div class="grid-container">
+      <div class="grid-x grid-margin-x text-right">
+        <div class="cell">
+          <h1> Our Arcade Story </h1>
+        </div>
+      </div>
+    </div>
+   </section>
+                              <!-- BANNER -->
+
+<section class="bar2">
+    <div class="grid-container">
+      <div class="grid-x grid-margin-x">
+        <div class="cell medium-6 small-order-2 medium-order-1">
+          <h2> We are the ultimate retro experience, right here in Boston. </h1>
+            <p> This idea started when the owner, Ryan Wirth, noticed arcade bars
+            Around New England. But what New England was lacking was, an Arcade Hotel.
+            By combining timeless classics and the best comfort around, Arcade Haven was made. 
+            If you are in town for business, a convention or even just looking to have a night
+            To yourself, we are certain you will enjoy your stay here with us! We don't want to bore you with our whole life story, but if you're curious, go ahead and read some more!</p>
+            <div class="reveal" id="overlay" data-reveal>
+            <h1>Coming soon...</h1>
+            <p class="lead"></p>
+            <p></p>
+            <button class="close-button" data-close aria-label="Close modal" type="button">
+            <span aria-hidden="true">&times;</span>
+            </button>
+            </div>
+
+            <p><button class="button" data-open="overlay">The whole story</button></p>
+        </div>
+        <div class="cell medium-6 text-center small-order-1 medium-order-2">
+          <img src="img/story.jpg" alt="arcadepic">
+          <h4> "My first experience was outstanding. Clean, comfortable, and tons of entertainment!"
+        </div>
+      </div>
+    </div>
+   </section>
+
+   <section class="story" id="three" data-magellan-target>
+     <div class="grid-container">
+      <div class="grid-x grid-margin-x text-left">
+        <div class="cell">
+          <h1> Yes, There's a Bar. </h1>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="story2">
+    <div class="grid-container">
+      <div class="grid-x grid-margin-x">
+        <div class="cell medium-6 text-center">
+          <img src="img/beers.jpg" alt="arcadepic">
+        </div>
+        <div class="cell medium-6">
+          <h2> What is Boston, without a bar? </h1>
+            <p> Feel free to relax and unwind with a nice drink
+            while enjoying one of our classic arcade machines. The bar is
+            loaded with all of the Boston favorites. From beer, spirits, and mixed drinks our bartender will satisfy you. Take a look at
+            our drink menu, they surely fit the theme.</p>
+            <div class="reveal" id="overlay" data-reveal>
+            <h1>Awesome. I Have It.</h1>
+            <p class="lead">Your couch. It is mine.</p>
+            <p>I'm a cool paragraph that lives inside of an even cooler modal. Wins!</p>
+            <button class="close-button" data-close aria-label="Close modal" type="button">
+            <span aria-hidden="true">&times;</span>
+            </button>
+            </div>
+
+            <p><button class="button" data-open="overlay">The Drinks</button></p>
+        </div>
+      </div>
+    </div>
+   </section>
+
+
+   <section class="bannerroom" id="four" data-magellan-target="four">
+     <div class="grid-container">
+      <div class="grid-x grid-margin-x text-right">
+        <div class="cell">
+          <h1> Vintage Rooms. </h1>
+        </div>
+      </div>
+    </div>
+  </section>
+
+   <section class="rooms">
+     <div class="grid-container">
+      <div class="grid-x grid-margin-x align-middle">
+        <div class="cell medium-4">
+          <h2> The 70s </h2>
+          <img src="img/70sroom.jpg" alt="comfy bed">
+          <p> This room is for anyone looking for the ultimate retro feel. Dont you worry, we have the atari waiting for you in each of the 70s rooms.
+          </p>
+        <a href="#"class="button">Reserve Now</a>   
+        </div>
+         <div class="cell medium-4">
+          <h2> The 80s </h2>
+          <img src="img/snesroom2.jpg">
+          <p> How about the 80s? This room is a paradise. In our 80s room
+          we have a NES with just about every single game ready for you,
+        need we say more?</p>
+        <a href="#"class="button">Reserve Now</a>   
+      </div>
+        <div class="cell medium-4">
+          <h2> The 90s </h2>
+          <img src="img/snesroom.jpg">
+          <p> Fancy the 90s? We have a room dedicated to it.
+          Anything that you could possibly think of related to
+        the 90s, we are one step ahead.</p>
+        <a href="#"class="button">Reserve Now</a>   
+      </div>
+      </div>
+    </div>
+</section>
+
+  
+          <section class="classics" data-magellan>
+    <div class="grid-container">
+      <div class="grid-x  grid-margin-x align-middle">
+        <div class="cell medium-12 show-for-large text-center">
+          <h2> January's Limited Edition Suite </h2>
+          <div class="orbit" role="region" aria-label="Favorite Space Pictures" data-orbit>
+  <div class="orbit-wrapper">
+    <div class="orbit-controls">
+      <button class="orbit-previous"><span class="show-for-sr">Previous Slide</span>&#9664;&#xFE0E;</button>
+      <button class="orbit-next"><span class="show-for-sr">Next Slide</span>&#9654;&#xFE0E;</button>
+    </div>
+    <ul class="orbit-container">
+      <li class="is-active orbit-slide">
+        <figure class="orbit-figure">
+          <img data-interchange="[img/classics.jpg, small], [img/classics.jpg, medium]">
+          <figcaption class="orbit-caption">
+            <div> <h3> Sports Arcade Suite </h3> <a href="#five"class="button alert">Reserve Now</a> </div> </figcaption>
+        </figure>
+      </li>
+    </ul> 
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</section>
+   
+
+
+
+<section class="ireservations" id="five" data-magellan-target>
+     <div class="grid-container">
+      <div class="grid-x grid-margin-x text-left">
+        <div class="cell">
+          <h1> Reservations </h1>
+        </div>
+      </div>
+    </div>
+  </section>
+
+   <section class="reservations">
+<div class="grid-container">
+      <div class="grid-x grid-margin-x">
+        <div class="cell medium-6 text-center">
+    <table class="table">
+      <thead>
+        <section class="checkin">
+        <tr>
+          <th><h2>Check In:</h2>
+            <input type="text" class="span2" value="" id="dpd1">
+          </th>
+        </tr>
+        </section>
+        <section class="checkout">
+        <tr>
+          <th><h2>Check Out:</h2>
+            <input type="text" class="span2" value="" id="dpd2">
+          </th>
+        </section>
+        </tr>
+        <tr>
+          <th><h2>How Many Players?</h2>
+            <input type="text" class="span2" value="" id="dpd4">
+          </th>
+        </section>
+        </tr>
+      </section>
+      </thead>
+      <tbody>
+        <tr colspan="2">
+          <td>
+            <button class="button" data-open="confirm-booking" id="dpd3">Reserve</button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+        <div class="cell medium-6 show-for-large">
+          <img src="img/bed.jpg" alt="a nice bed">
+         </div>
+      </div>
+  </div>
+
+    <div class="reveal" id="confirm-booking" data-reveal>
+      <h1>Confirmation</h1>
+      <p>Arrive <span class="date1"></span>. Depart <span class="date2"></span><span class="players"> </span> </p>
+      <button class="close-button" data-close aria-label="Close modal" type="button">
+        <span aria-hidden="true">&times;</span>
+      </button>
+    </div>
+
+   </section>
+
+
+
+ 
+   <footer>
+    <div class="grid-container">
+      <div class="grid-x grid-margin-x">
+        <div class="cell medium-3 text-left">
+        <a class="logo" href="#"><img src="img/blacklogo.svg" alt="logo"></a>
+      </div>
+        <div class="cell medium-9 text-right">
+          <a href="#"> <i class="fab fa-instagram"></i> </a>
+          <a href="#"> <i class="fab fa-twitter"></i> </a>
+          <a href="#"> <i class="fab fa-facebook"></i> </a>       
+        </div>
+    </div>
+  </div>
+
+
+   </footer>
+
+   
+    
+   
+    
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/vendor/what-input.js"></script>
+    <script src="js/vendor/foundation.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/vendor/foundation-datepicker.min.js"></script>
+    <script src="js/app-date.js"></script>
+  </body>
+</html>

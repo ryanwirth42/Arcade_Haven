@@ -1,0 +1,360 @@
+body {
+	background-color: #1A0A08;
+}
+
+
+header {
+	background-color: #1A0A08;
+	padding: 1rem;
+}
+
+.fa-bars {
+	color: #fff;
+	font-size: 3rem;
+
+}
+.logo img {
+	height: 4.5rem;
+	padding: 0rem;
+}
+header .button {
+	font-family: 'Fira Code', monospace;
+	background-color: #E03B2F;
+	font-weight: 700;	
+	width: 100px;
+	margin-top: 1.5rem;
+}
+
+header a {
+  line-height: 1;
+  text-decoration: none;
+  display: block;
+  padding: .7rem 1rem;
+  text-align: center;
+  color: #fff;
+}
+
+header .logo {
+  text-align: left;
+}
+
+header .menu-link {
+  text-align: right;
+}
+  .reveal {
+	background: rgb(255,255,255);
+	background: linear-gradient(180deg, rgba(255,255,255,0.5452556022408963) 0%, rgba(224,59,47,1) 68%);
+	background-size: cover;
+	border: 0;
+	font-family: 'Fira Code', monospace;
+	line-height: 0;
+}
+
+ .button {
+	font-family: 'Fira Code', monospace;
+	background-color: #E03B2F;
+	font-weight: 700;
+}
+
+.button:hover, .button:focus {
+	background-color: #641610;
+}
+
+.reveal .grid-x {
+  height: 100vh;
+}
+
+.reveal .menu a {
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+@media screen and (min-width: 40em){
+  header a,
+  header .logo {
+    text-align: center;
+  }
+}
+
+.orbit-caption {
+	text-align: right;
+	font-family: 'Fira Code', monospace;
+	font-weight: 700;
+	background: rgb(255,255,255);
+	background: linear-gradient(90deg, rgba(255,255,255,0) 35%, rgba(0,0,0,1) 100%);
+	height: 100%;
+}
+
+.orbit-caption h3 {
+	font-family: 'Fira Code', monospace;
+	font-weight: 300;
+	}
+
+.orbit-caption div {
+	transform: translateY(70%);
+}
+
+@media screen and (min-width: 50em) {
+	.orbit-caption {
+		padding-right: 5rem;
+		padding-bottom: 8rem;
+	}
+}
+
+.hero {
+
+}
+
+.features {
+	padding: 4rem 4rem;
+	font-family: 'Fira Sans', sans-serif;	
+	background-color: #1A0A08;
+}
+
+.features h2 {
+	color: #fff;
+	font-family: 'Fira Code', monospace;
+	font-weight: 700;
+}
+
+.features p {
+	color:  #fff;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+}
+
+.features h4 {
+	font-family: 'Fira Code', monospace;
+	font-weight: 300;
+	background-color: #E03B2F;
+	color: #fff;
+	
+	padding-top: 0.5rem;
+	padding-bottom: 0.5rem;
+}
+
+.story {
+	
+}
+
+.bar {
+background: url(../img/barbanner.jpg) no-repeat 50% 50%;
+background-size: cover;
+padding: 3rem;
+}
+
+.reveal {
+	color: #fff;
+}
+
+.bar h1 {
+	color: #fff;
+	font-family: 'Fira Code', monospace;
+	font-weight: 700;
+}
+
+.bar2 {
+	color: #fff;
+	padding: 3.5rem 3.5rem;
+}
+
+@media screen and (min-width: 50em) {
+	.bar2 {
+		padding: 6rem 6rem;
+	}
+}
+.bar2 h2 {
+	font-family: 'Fira Code', monospace;
+	font-weight: 700;
+	font-size: 2rem;
+}
+
+@media screen and (max-width: 32em) {
+	.bar2 h2 {
+		padding-top: 2rem;
+	}
+}
+
+.bar2 h4 {
+	background-color: #E03B2F;
+	padding: 0.5rem;
+	font-size: 1.2rem;
+	font-weight: 300;
+	font-family: 'Fira Code', monospace;
+
+}
+
+.story {
+	background: url(../img/barbanner2.jpg) no-repeat 50% 50%;
+	background-size: cover;
+	padding: 3rem;
+}
+
+.story h1 {
+	color: #fff;
+	font-family: 'Fira Code', monospace;
+	font-weight: 700;
+}
+
+.story2 {
+	color: #fff;
+	padding: 3.5rem 3.5rem;
+}
+
+@media screen and (max-width: 32em) {
+	.story2 img {
+		padding-top: 2rem;
+		padding-bottom: 2rem;
+	}
+}
+
+.story2 h2 {
+	font-family: 'Fira Code', monospace;
+	font-weight: 700;
+	font-size: 2rem;
+}
+
+.story2 h4 {
+	background-color: #F9B816;
+	padding: 0.5rem;
+	font-size: 1.2rem;
+	font-weight: 500;
+}
+
+.bannerroom {
+	background: url(../img/vintageroom.jpg) no-repeat 50% 50%;
+	background-size: cover;
+	padding: 3rem;
+}
+
+.bannerroom h1 {
+	color: #fff;
+	font-family: 'Fira Code', monospace;
+	font-weight: 700;
+}
+
+.rooms {
+	padding: 4rem 4rem;
+	font-family: 'Fira Sans', sans-serif;	
+	background-color: #1A0A08;
+}
+
+.rooms h2 {
+	color: #fff;
+	font-family: 'Fira Code', monospace;
+	font-weight: 700;
+}
+
+.rooms p {
+	color:  #fff;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+}
+
+.rooms h4 {
+	font-family: 'Fira Code', monospace;
+	font-weight: 500;
+	background-color: #E03B2F;
+	color: #fff;
+	padding-top: 0.5rem;
+	padding-bottom: 0.5rem;
+}
+
+
+.tabs {
+    margin: 0;
+    border: none;
+    background: #E03B2F;
+    list-style-type: none;
+}
+
+.tabs-panel {
+	padding: 0;
+}
+
+@media screen and (min-width: 50em) {
+.classics { 
+	padding-bottom: 8rem;
+ }
+}
+
+.classics h3 {
+	padding-top: 3rem;
+}
+
+.classics h2 {
+	color: #fff;
+	font-family: 'Fira Code', monospace;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	font-weight: 700;
+}
+
+.classics p {
+	color:  #fff;
+	padding-bottom: 1rem;
+	font-size: 1.1rem;
+	text-align: left;
+}
+
+.orbit-previous, .orbit-next {
+	color: transparent;
+}
+
+
+.ireservations {
+	background: url(../img/reservations.jpg) no-repeat 50% 50%;
+	background-size: cover;
+	padding: 3rem;
+}
+
+
+.ireservations h1 {
+	color: #fff;
+	font-family: 'Fira Code', monospace;
+	font-weight: 700;
+}
+
+
+.reservations h2 {
+	color: #fff;
+	font-family: 'Fira Code', monospace;	
+}
+
+.reservations {
+	padding-top: 4rem;
+}
+
+ tbody,thead,tfoot {
+ 	background-color: transparent;
+ 	border-color: transparent;
+ }
+
+
+ .reservations img {
+padding-top: 4rem;
+ }
+
+
+
+
+footer {
+	background-color:#E03B2F;
+	margin-top: 5rem;
+	padding: 1rem 1rem;
+}
+
+footer .logo img {
+	height: 3.5rem;
+}
+
+@media screen and (min-width: 32em) {
+	footer .logo img {
+		height: 4.5rem;
+	}
+}
+
+.fa-instagram, .fa-twitter, .fa-facebook {
+	font-size: 2.5rem;
+	color: #000;
+}
